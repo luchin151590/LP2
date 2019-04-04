@@ -210,5 +210,4 @@ bool binary(int *a,int x,int ta)
 		}
 	
 	}	return 0;
-	
 }
