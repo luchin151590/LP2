@@ -3,21 +3,14 @@
 using namespace std;
 void burbuja(int a[],int n);
 int main()
-{	int ta=4,k;
+{	int ta=4;
 	int a[ta]={2,1,1,0};
 	burbuja(a,ta);
 	for(int i=0;i<ta;i++)
 	{
 		cout<<a[i]<<" ";
 	}
-	cout<<"que posicion k:";
-	cin>>k;
-	for(int i=0;i<ta;i++)
-	{	if(k==(i+1))
-		{
-			cout<<a[i]<<" ";
-		}
-	}
+ 	return 0;
 }
 void burbuja(int a[],int n)
 {int aux;
@@ -31,5 +24,5 @@ void burbuja(int a[],int n)
 				a[j+1]=aux;
 			}
 		}
-	}
+ }
 }
